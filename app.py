@@ -4,8 +4,8 @@ import joblib
 
 st.set_page_config(page_title="Predicción de géneros musicales", layout="wide")
 
-modelo = joblib.load("mejormodelo_genre.pkl")
-le = joblib.load("labelencoder_genre.pkl")
+modelo = joblib.load("mejor_modelo_genre.pkl")
+le = joblib.load("label_encoder_genre.pkl")
 
 st.title("Aplicación de predicción de género musical")
 st.write("Esta app predice el género musical usando características de canciones.")
