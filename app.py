@@ -36,10 +36,10 @@ entrada = pd.DataFrame([{
     "mode": mode,
     "speechiness": speechiness,
     "tempo": tempo,
-    "timesignature": timesignature,
+    "time_signature": timesignature,
     "valence": valence,
     "year": year,
-    "durationmin": durationmin
+    "duratio_nmin": durationmin
 }])
 
 if st.button("Predecir género"):
