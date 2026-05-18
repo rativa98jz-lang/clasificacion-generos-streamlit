@@ -20,10 +20,10 @@ loudness = st.slider("Loudness", -60.0, 5.0, -10.0)
 mode = st.slider("Mode", 0, 1, 1)
 speechiness = st.slider("Speechiness", 0.0, 1.0, 0.1)
 tempo = st.slider("Tempo", 0.0, 250.0, 120.0)
-timesignature = st.slider("Time Signature", 0, 7, 4)
+time_signature = st.slider("Time Signature", 0, 7, 4)
 valence = st.slider("Valence", 0.0, 1.0, 0.5)
 year = st.slider("Year", 1986, 2023, 2010)
-durationmin = st.slider("Duration (min)", 0.0, 15.0, 3.5)
+duration_min = st.slider("Duration (min)", 0.0, 15.0, 3.5)
 
 entrada = pd.DataFrame([{
     "acousticness": acousticness,
